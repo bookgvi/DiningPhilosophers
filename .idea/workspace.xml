@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f28bb162-fa53-4ff6-90b7-fcc572f4d05c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiningPhilosophers/com/philosophers/dining/Philosopher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiningPhilosophers/com/philosophers/dining/Philosopher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiningPhilosophers/com/philosophers/dining/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiningPhilosophers/com/philosophers/dining/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/philosophers/dining/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/philosophers/dining/Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/philosophers/dining/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/philosophers/dining/Table.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609938990700</updated>
-      <workItem from="1609938995094" duration="1904000" />
+      <workItem from="1609938995094" duration="4869000" />
     </task>
     <servers />
   </component>

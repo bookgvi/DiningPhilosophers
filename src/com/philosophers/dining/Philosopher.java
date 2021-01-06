@@ -15,14 +15,14 @@ public class Philosopher implements Runnable {
   public void run() {
     try {
       while (true) {
-        doAction(" thinking...");
+        doAction("- thinking...");
         synchronized (leftFork) {
           doAction("pick up left fork");
           synchronized (rightFork) {
-            doAction("pick up right fork");
-            doAction("put right fork");
+            doAction("pick up right fork... dining");
+            doAction("put down right fork");
           }
-          doAction("put left fork");
+          doAction("put down left fork");
         }
       }
     } catch (InterruptedException e) {
@@ -32,6 +32,6 @@ public class Philosopher implements Runnable {
 
   private void doAction(String action) throws InterruptedException {
     System.out.printf("%s %s%n", Thread.currentThread().getName(), action);
-    Thread.sleep(new Random().nextInt(500));
+    Thread.sleep(new Random().nextInt(1500));
   }
 }
